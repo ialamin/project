@@ -1,0 +1,6 @@
+
+
+
+activate virtual env: source venv/bin/activate
+migrate db: python manage.py migrate
+push to heroku: 
