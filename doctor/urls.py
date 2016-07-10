@@ -15,7 +15,6 @@ urlpatterns = [
     url(r'^doctors/(?P<pk>[0-9]+)/$', views.doctor_detail),
     url(r'^doctors/(?P<pk>[0-9]+)/edit/$', views.doctor_detail),
     url(r'^doctors/$', views.doctor_list),
-    url(r'^doctors/$', views.logout_user),
 
 
 ]
